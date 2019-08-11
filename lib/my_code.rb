@@ -15,7 +15,7 @@ def reduce(source_array,start=0)
     if source_array[counter] 
       return true
     end 
-    counter +=1
+    counter += start
   end 
   return false
 end 
