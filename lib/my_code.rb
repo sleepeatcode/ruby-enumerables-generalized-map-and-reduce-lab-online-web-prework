@@ -19,3 +19,14 @@ end
 #   end 
 #   return false
 # end 
+def reduce(source_array,starting_point=0)
+  if starting_point 
+    acc = starting_point
+    i = 0
+else
+  acc = source_array[0]
+  i = 1 
+end
+ while i < source_array.length
+ end
+end
