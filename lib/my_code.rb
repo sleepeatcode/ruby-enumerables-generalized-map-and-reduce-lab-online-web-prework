@@ -10,7 +10,7 @@ def map(array)
 end 
 
 def reduce(source_array,start=0)
-  counter = 0 
+  counter = start 
   while counter < source_array.length do
     if source_array[counter] 
       return true
